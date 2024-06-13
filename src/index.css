@@ -1,0 +1,371 @@
+*{
+border: 0;
+border: 1px solid red;
+
+}
+
+body {
+  font-family: "Pavanam", sans-serif;
+  
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*-----Diseños de secction 3------*/
+.titulo {
+  font-size: 1.2rem; /* Tamaño del título */
+  font-weight: bold; /* Texto en negrita */
+  text-transform: uppercase; /* Convertir texto a mayúsculas */
+  color: #ffaf03; /* Color del texto */
+  text-align: center; /* Alinear el texto al centro */
+ margin: 1rem;
+}
+.section_3{
+ padding: 2rem;
+  height: 180px;
+
+ text-align: center;
+}
+.img_sec3 {
+  height:80px ;
+  width: 150px;
+  border: solid rgb(240, 232, 232) 1px;
+  border-radius: 8%;
+  display: flex;
+  justify-content: center;
+   margin-left: 10px;
+   margin-bottom: 10px;
+}
+.img_sec3>img{
+  height: 80px;
+
+}
+
+p{
+  font-size: 1.2rem; /* Ajusta el tamaño de la fuente según sea necesario */
+  line-height: 1.5; /* Ajusta el espaciado entre líneas */
+   
+  color: #a8a8a8; 
+}
+
+.cajas_populares{
+  display: flex;
+  flex-direction: row;
+ justify-content: center;
+}
+
+
+/*----------------------------------------------*/
+/*---------secction 4----*/
+.row {
+display: flex;
+justify-content: center;
+ gap: 1rem;
+ flex-wrap: wrap;
+  background-color: #f9962c;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 10rem;
+  padding-right: 10rem;
+}
+
+.caja_content {
+  width: 300px;
+  height: 120px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 1rem;
+
+}
+
+
+
+/*----------------------------------------------*/
+
+.card {
+  --font-color: #0a0a0a;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --main-color: #f27501;
+  --main-focus: #2d8cf0;
+  margin-left: 2rem;
+  width: 230px;
+  height: 300px;
+ background-image: url(card_fondo.png);
+
+ background-size: cover;
+background-size: contain;
+  border: 2px solid var(--main-color);
+  box-shadow: 4px 4px var(--main-color);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  gap: 10px;
+ 
+}
+
+.card:last-child {
+  justify-content: flex-end;
+ 
+}
+
+.card-img {
+    /* clear and add new css */
+  transition: all 0.5s;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  color: var(--font-color);
+}
+
+.card-subtitle {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--font-color-sub);
+}
+
+.card-divider {
+  width: 100%;
+  border: 1px solid var(--main-color);
+  border-radius: 50px;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-price {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--font-color);
+}
+
+.card-price span {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--font-color-sub);
+}
+
+.card-btn {
+  height: 35px;
+  background: var(--bg-color);
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  padding: 0 15px;
+  transition: all 0.3s;
+}
+
+.card-btn svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--main-color);
+  transition: all 0.5s;
+}
+
+.card-img:hover {
+  transform: translateX(-6px);
+  transform: scale(1.2);
+}
+
+.card-btn:hover {
+  border: 2px solid var(--main-focus);
+}
+
+.card-btn:hover svg {
+  fill: var(--main-focus);
+}
+
+.card-btn:active {
+  transform: translateY(3px);
+}
+
+/*----------------------------------------------*/
+
+.product_img{
+
+  height: 160px;
+ 
+
+
+}
+
+.caja_product{
+  padding: 1.5rem;
+}
+
+
+.fila_productos{
+  display: flex;
+ justify-content: center;
+ padding: 1rem;
+}
+
+
+/*_____________________________________________________________-*/
+
+
+
+.caja_buscador{
+  width: 90%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.group {
+  display: flex;
+line-height: 25px;
+  align-items: center;
+  position: relative;
+width: 50%;
+}
+
+.input {
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #f3f3f4;
+  color: #0d0c22;
+  transition: 0.3s ease;
+}
+
+.input::placeholder {
+  color: #9e9ea7;
+}
+
+.input:focus,
+input:hover {
+  outline: none;
+  border-color: rgba(247, 127, 0, 0.4);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(247 127 0 / 10%);
+}
+
+.icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+}
+
+.racing-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.stripe {
+  width: 20px;
+  height: 2px;
+  background-color: #f90; /* Color de las rayas */
+}
+
+.caja_seccion{
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  
+
+}
+.botones_seguir{
+
+
+  width: 50px;
+
+  display: flex;
+  justify-content: space-between;
+margin-right: 10%;
+}
+.fi:hover{
+ background-color: #b2cfef;
+
+}
+
+/*-----------------------------------------------*/
+.CAJASUB1{
+padding: 1rem;
+  width:30%;
+
+}
+.CAJASUB2{
+ width: 60%;
+ padding: 1rem;
+}
+
+.caja_general_carrito{
+
+  display: flex;
+  border: solid  1px rgb(0, 0, 0);
+  border-radius :10px  ;
+  width: 620px;
+  height: 210px;
+  
+}
+
+.imgdescr{
+ 
+  height: 98%;
+  width: 97%;
+  
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imgdescr:hover{
+  transform: scale(1.1); /* Agranda la imagen al 110% */
+  
+}
+.caja_descripcion{
+
+text-align: start;
+}
+
+.descripcion_title{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+.inputt{
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+  border: solid 1px black;
+}
+.parr{
+  margin-bottom: 2rem;
+  padding:1rem
+}
+/*-----------------------------------------------*/
+.fi-rr-heart{
+  font-size: 24px;
+}
+.CAJASUB3{
+  display: flex;
+  flex-direction: column;
+  gap: 6.5rem;
+
+  margin: 1rem;
+}
