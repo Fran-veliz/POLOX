@@ -1,6 +1,6 @@
 *{
 border: 0;
-border: 1px solid red;
+/*border: 1px solid red;*/
 
 }
 
@@ -368,4 +368,149 @@ text-align: start;
   gap: 6.5rem;
 
   margin: 1rem;
+}
+/* diseño de la target de  resumen de pedido*/
+
+
+
+.order-summary {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+.pay-button {
+  background: rgb(250, 188, 71);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.summary h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.details {
+  margin-bottom: 20px;
+}
+
+.details .item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.details .total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 10px;
+  border-top: 1px solid#f38b0c;
+  padding-top: 10px;
+}
+
+.details .tax {
+  font-size: 12px;
+  color: #f38b0c;
+}
+
+.promo-code {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f38b0c;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.promo-code input {
+  border: none;
+  outline: none;
+  flex: 1;
+  padding: 5px;
+}
+
+.promo-code .add-code-button {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.payment-options {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.payment-options img {
+  height: 24px;
+}
+/*css de   carrito de productos*/
+.descr_carrito{
+  display: flex;
+  justify-content: space-around;
+}
+.column_product{
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 2rem;
+}
+.resumen_pedido_general{
+
+  width: 30%;
+
+
+  display: flex;
+height: 500px;
+  justify-content: center;
+
+}
+/*   bievenidad coaariito*/
+
+.bienbenidad_carrito{
+  
+
+  width: 50%;
+  padding: 1rem;
+  margin-bottom: 2REM;
+  border:  1px solid rgb(221, 184, 148);
+  border-radius: 10px;
+}
+.general_carrito{
+
+  width: 97%;
+justify-content: center;
+margin: 2rem;
+}
+/*icono  comopra carritp*/
+.fi-rr-cart-shopping-fast{
+
+  font-size: 50px;
+}
+h2{
+  font-size: 2rem;
+}
+.cabezera_carrito{
+  display: flex;
+  justify-self: flex-start;
+ gap: 2rem;
 }

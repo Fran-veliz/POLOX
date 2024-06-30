@@ -4,7 +4,7 @@ import './index.css';
 import Seccion3 from './Seccion3';
 import Seccion4 from './Seccion4.js';
 import Foter from './Foter.js';
-import CajaProdDescr from './carrito/CajaProdDescr.js';
+import Carrito from './Carrito.js';
 
 import Buscador from './Buscador.js';
 
@@ -14,11 +14,9 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-  <Seccion3/>
- <Seccion4/>
- <Buscador/>
- <Foter/>
-<CajaProdDescr/>
+
+
+<Carrito/>
 
  
   </React.StrictMode>
